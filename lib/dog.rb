@@ -21,9 +21,8 @@ class Dog
   def self.clear_all
     @@all = []
   end
-
+binding.pry
     def self.print_all
-      binding.pry
       @@all.each do |dog|
       puts dog.name
         end
